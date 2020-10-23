@@ -1,0 +1,453 @@
+*,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container
+{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.inner-container
+{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+.main-container .banner
+{
+    background: url("images/banner_03.png") no-repeat;
+    background-size: cover;
+    height:455px;
+}
+.main-container .header-top 
+{
+    margin-bottom: 28px;
+}
+.main-container .header-top .inner-container
+{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+     padding-top: 52px;
+     /* grid-gap: 15px; */
+}
+.main-container .header-top .inner-container .sec-logo
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    justify-self: end;
+     grid-gap: 17px;
+}
+.main-container .header-top .inner-container .sec-logo  .heading h1{
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+.main-container .header-top .inner-container .sec-logo .heading h2{
+    color:#666666;
+    font-size: 25px;
+    font-weight: normal;
+}
+.main-container .header-top .inner-container .sec-logo .phone-icons
+{
+    align-self: center;
+}
+.main-container .banner header{
+    /* background: url("images/header-img.png"); */
+    background:#e2e4e4;
+    height: 60px;
+}
+.main-container .banner header .inner-container .menu ul li{
+    display: inline-block;
+    text-align: left;
+    line-height: 60px;
+    margin-right: 31px;
+}
+.main-container .banner header .inner-container .menu ul li a{
+    text-decoration: none;
+    color: #2b2c2d;
+    font-size: 20px;
+}
+.main-container .banner header .inner-container .menu ul li:last-child
+{
+    margin-right: 0px;
+}
+.main-container .banner header .inner-container .menu ul li a:hover{
+    color:#9f1d21; 
+}
+.main-container .banner header .inner-container .menu ul li .active{
+    color:#9f1d21;
+}
+.main-container .middle-container
+{
+  background: url('images/middle-pic_07.jpg') no-repeat;
+    background-size: cover;
+    height: 561px;
+}
+.main-container .middle-container .inner-container .paragraph
+{
+    display: grid;
+    grid-template-columns: 620px 1fr;
+    grid-template-rows: 1fr;
+    color: white;
+    padding-top: 43px;
+    grid-gap: 27px;
+    padding-bottom: 40px;
+
+}
+.main-container .middle-container .inner-container .paragraph .first-paragraph h1{
+    font-size: 40px;
+    color: #b52e32;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+.main-container .middle-container .inner-container .paragraph .first-paragraph h1 span{
+    color: white;
+}
+.main-container .middle-container .inner-container .paragraph .first-paragraph .p-1
+{
+    color: #8d8d8d;
+    font-size: 20px;
+    font-weight: bold;
+    font-style:italic;
+    margin-bottom: 28px;
+}
+.main-container .middle-container .inner-container .paragraph .first-paragraph .p-2
+{
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.main-container .middle-container .inner-container .paragraph .first-paragraph .p-3
+{
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 25px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph
+{
+    align-self: end;
+   
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-1
+{
+ display: grid;
+ grid-template-columns: auto 1fr;
+ align-items: center;
+ grid-gap: 19px;
+ margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-1 a{
+            color: #ee343a;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+           
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-2
+{
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center;
+            grid-gap: 19px;
+            margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-2 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-3
+{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-gap: 19px;
+        margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-3 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-4
+{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-gap: 19px;
+        margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-4 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+font-size: 16px;
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-5
+{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-gap: 19px;
+        margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-5 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-6
+{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-gap: 19px;
+        margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-6 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-7
+{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-gap: 19px;
+        margin-bottom: 9px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-7 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-8
+{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        /* align-items: center; */
+        grid-gap: 19px;
+        margin-bottom: 25px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-8 a{
+    color: #ee343a;
+    text-decoration: none;
+    font-weight: bold;
+font-size: 16px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph .icons-8 img{
+    padding-top: 7px;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph button
+{
+    width: 310px;
+    height: 54px;
+    background: #9d1b1f;
+    border: none;
+}
+    .main-container .middle-container .inner-container .paragraph .second-paragraph button  .button-box
+{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    grid-template-rows: 1fr; 
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    justify-items: start;
+    grid-gap: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.main-container .middle-container .inner-container .paragraph .second-paragraph button  .button-box img{
+    justify-self: right;
+}
+.main-container .footer-contact
+{
+    background: url("images/footer-contact.png") no-repeat;
+    background-size: cover;
+    height: 331px;
+}
+.main-container .footer-contact .inner-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 55px;
+    padding-top: 50px;
+}
+.main-container .footer-contact .inner-container .third-paragraph h1
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.main-container .footer-contact .inner-container .third-paragraph span{
+    color: #890e12;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-container .footer-contact .inner-container .third-paragraph .p-4
+{
+    color: #cccccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.main-container .footer-contact .inner-container .third-paragraph .p-5
+{
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.main-container .footer-contact .inner-container .third-paragraph .p-6
+{
+    font-size: 16px;
+    color: #cccccc;
+}
+.main-container .footer-contact .inner-container .email-form form .form-group-1
+{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 9px;
+}
+.main-container .footer-contact .inner-container .email-form form .form-group-1 input
+{
+    border-radius: 7px;
+    padding: 6px;
+    background: #eaeaea;
+}
+.main-container .footer-contact .inner-container .email-form form .form-group-2
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 9px;
+}
+.main-container .footer-contact .inner-container .email-form form .form-group-2 input
+{
+    border-radius: 7px;
+    padding: 6px;
+    background: #eaeaea;
+}
+.main-container .footer-contact .inner-container .email-form form .form-group-3
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.main-container .footer-contact .inner-container .email-form form .form-group-3 input 
+{
+    border-radius: 7px;
+    padding-top: 11px;
+    padding-bottom: 36px;
+    padding-left: 18px;
+    background: #eaeaea;
+}
+.main-container .footer-contact .inner-container .email-form .submit-box
+{
+    display: grid;
+    grid-template-columns: 361px 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 66px;
+    font-size: 12px;
+    color: #cccccc;
+    text-align: right;
+    align-items: center;
+}
+.main-container .footer-contact .inner-container .email-form .submit-box button
+{
+    width: 180px;
+    height: 54px;
+    background:#9a191d;
+    border: none;
+}
+.main-container .footer-contact .inner-container .email-form .submit-box button .btn-box{
+  
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    grid-template-rows: 1fr;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+}
+.main-container .footer-contact .inner-container .email-form .submit-box button img{
+    justify-self: end;
+}
+.main-container .footer-contact .inner-container .email-form form{
+    margin-bottom: 20px;
+}
+.main-container .final-footer .inner-container
+{
+    display: grid;
+    grid-template-columns:364px 284px 1fr;
+    grid-template-rows: 1fr;
+    height: 120px;
+    grid-gap: 18px;
+    /* line-height: 120px; */
+    align-items: center;
+ 
+}
+.main-container .final-footer .inner-container .footer-text  p
+{
+    color: #cccccc;
+    font-size: 12px;
+}
+.main-container .final-footer .inner-container .footer-logo
+{
+    justify-self: end;
+}
+.main-container .final-footer .inner-container .footer-menu ul li{
+    display: inline-block;
+    text-align: left;
+    line-height: 120px;
+    margin-right: 3px;
+}
+.main-container .final-footer .inner-container .footer-menu ul li a{
+    text-decoration: none;
+    color: #2b2c2d;
+    font-size: 14px;
+}
+.main-container .final-footer .inner-container .footer-menu ul li a:hover{
+    color:#9f1d21; 
+}
+.main-container .final-footer .inner-container .footer-menu ul li .active{
+    color:#9f1d21;
+}
+.main-container .final-footer .inner-container .footer-menu ul li:last-child
+{
+    margin-right: 0px;
+}
