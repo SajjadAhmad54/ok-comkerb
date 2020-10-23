@@ -103,7 +103,15 @@
     padding-top: 43px;
     grid-gap: 27px;
     padding-bottom: 40px;
-
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .middle-container .inner-container .paragraph
+    {
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
 }
 .main-container .middle-container .inner-container .paragraph .first-paragraph h1{
     font-size: 40px;
@@ -419,7 +427,7 @@ font-size: 16px;
     grid-template-columns:364px 284px 1fr;
     grid-template-rows: 1fr;
     height: 120px;
-    grid-gap: 18px;
+    grid-gap: 9px;
     /* line-height: 120px; */
     align-items: center;
  
