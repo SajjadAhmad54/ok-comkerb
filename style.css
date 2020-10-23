@@ -59,6 +59,9 @@
 {
     align-self: center;
 }
+.main-container .header-top .inner-container .sec-logo .phone-icons a:hover{
+    opacity: 0.7;
+}
 .main-container .banner header{
     /* background: url("images/header-img.png"); */
     background:#e2e4e4;
@@ -423,7 +426,7 @@ font-size: 16px;
 }
 .main-container .final-footer .inner-container .footer-text  p
 {
-    color: #cccccc;
+    color: #b0b0b0;
     font-size: 12px;
 }
 .main-container .final-footer .inner-container .footer-logo
