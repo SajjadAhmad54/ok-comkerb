@@ -280,14 +280,7 @@ font-size: 16px;
 .main-container .middle-container .inner-container .paragraph .second-paragraph .icons-8 img{
     padding-top: 7px;
 }
-.main-container .middle-container .inner-container .paragraph .second-paragraph button
-{
-    width: 310px;
-    height: 54px;
-    background: #9d1b1f;
-    border: none;
-}
-    .main-container .middle-container .inner-container .paragraph .second-paragraph button  .button-box
+    .main-container .middle-container .inner-container .paragraph .second-paragraph button  
 {
     display: grid;
     grid-template-columns: 35px 1fr;
@@ -299,8 +292,13 @@ font-size: 16px;
     grid-gap: 17px;
     cursor: pointer;
     text-transform: uppercase;
+    width: 310px;
+    height: 54px;
+    background: #9d1b1f;
+    border: none;
+    outline: none;
 }
-.main-container .middle-container .inner-container .paragraph .second-paragraph button  .button-box img{
+.main-container .middle-container .inner-container .paragraph .second-paragraph button  img{
     justify-self: right;
 }
 .main-container .footer-contact
@@ -353,38 +351,56 @@ font-size: 16px;
     grid-template-columns: 300px 300px;
     grid-template-rows: 1fr;
     grid-gap: 10px;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
+    height: 35px;
 }
 .main-container .footer-contact .inner-container .email-form form .form-group-1 input
 {
-    border-radius: 7px;
-    padding: 6px;
+    border-radius: 4px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-style: italic;
     background: #eaeaea;
+    border: none;
+    line-height: 35px;
+    outline: none;
 }
 .main-container .footer-contact .inner-container .email-form form .form-group-2
 {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
+    height: 35px;
 }
 .main-container .footer-contact .inner-container .email-form form .form-group-2 input
 {
-    border-radius: 7px;
-    padding: 6px;
+    border-radius: 4px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-style: italic;
     background: #eaeaea;
+    border: none;
+    line-height: 35px;
+    outline: none;
 }
+
 .main-container .footer-contact .inner-container .email-form form .form-group-3
 {
     display: grid;
     grid-template-columns: 1fr;
 }
-.main-container .footer-contact .inner-container .email-form form .form-group-3 input 
+.main-container .footer-contact .inner-container .email-form form .form-group-3 textarea
 {
-    border-radius: 7px;
+    border-radius: 4px;
     padding-top: 11px;
-    padding-bottom: 36px;
-    padding-left: 18px;
+    padding-bottom: 11px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-style: italic;
     background: #eaeaea;
+    border: none;
+    height: 65px;
+    outline: none;
 }
 .main-container .footer-contact .inner-container .email-form .submit-box
 {
@@ -403,9 +419,7 @@ font-size: 16px;
     height: 54px;
     background:#9a191d;
     border: none;
-}
-.main-container .footer-contact .inner-container .email-form .submit-box button .btn-box{
-  
+    background-image: linear-gradient(to right ,#9f1d21, #8a0e12);
     display: grid;
     grid-template-columns: 36px 1fr;
     grid-template-rows: 1fr;
@@ -414,6 +428,7 @@ font-size: 16px;
     text-transform: uppercase;
     align-items: center;
     cursor: pointer;
+    outline: none;
 }
 .main-container .footer-contact .inner-container .email-form .submit-box button img{
     justify-self: end;
