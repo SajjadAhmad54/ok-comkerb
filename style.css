@@ -1,4 +1,4 @@
-*,body{
+f*,body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -303,8 +303,9 @@ font-size: 16px;
 }
 .main-container .footer-contact
 {
-    background: url("images/footer-contact.png") no-repeat;
-    background-size: cover;
+    /* background: url("images/footer-contact.png") no-repeat; */
+    /* background-size: cover; */
+    background: #6d7172;
     height: 331px;
 }
 .main-container .footer-contact .inner-container
