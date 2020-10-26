@@ -23,6 +23,13 @@
     height:455px;
     position: relative;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner
+    {
+        height: 900px;
+    }
+}
 .main-container .header-top 
 {
     margin-bottom: 28px;
@@ -34,7 +41,32 @@
     grid-template-rows: 1fr;
     align-items: center;
      padding-top: 52px;
-     /* grid-gap: 15px; */
+     
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .header-top .inner-container
+{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+     padding-top: 52px; 
+  }
+} 
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .header-top .inner-container .logo
+    {
+        text-align: center;
+    }
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .header-top .inner-container .logo img{
+     width: 310px
+    }
+
 }
 .main-container .header-top .inner-container .sec-logo
 {
@@ -43,6 +75,13 @@
     grid-template-rows: 1fr;
     justify-self: end;
      grid-gap: 17px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .header-top .inner-container .sec-logo
+    {
+        justify-self: center;
+    }
 }
 .main-container .header-top .inner-container .sec-logo  .heading h1{
     color: red;
@@ -67,6 +106,34 @@
     /* background: url("images/header-img.png"); */
     background:#e2e4e4;
     height: 60px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner header .menu ul
+    {
+        display: none;
+    }
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner header .inner-container .menu .bars-icons
+    {
+        text-align: right;
+       padding-right: 20px;
+        font-size: 20px;
+    }
+}
+.main-container .banner header .inner-container .menu i
+{
+    display: none;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner header .inner-container .menu i
+{
+    display: block;
+    line-height: 60px;
+    }
 }
 .main-container .banner header .inner-container .menu ul
 {
@@ -99,11 +166,25 @@
     bottom: 101px;
     left: 40px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .left-arrow
+{
+    display: none;
+}
+}
 .main-container .banner .banner-service .right-arrow
 {
     position: absolute;
     bottom: 101px;
     right: 40px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .right-arrow
+{
+    display: none;
+}
 }
 .main-container .banner .banner-service .inner-container  .first-box
 {
@@ -117,12 +198,23 @@
   bottom: 0px;
   /* box-shadow: 6px 0px 13px #020302; */
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container  .first-box
+    {
+        position: absolute;
+        bottom: 461px;
+        width: 100%;
+    }
+}
 .main-container .banner .banner-service .inner-container  .first-box .paragraph-1
 {
     padding-top: 33px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+
 .main-container .banner .banner-service .inner-container   .first-box h1
 {
     font-size: 20px;
@@ -155,6 +247,13 @@
     position: absolute;
     bottom: 0px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container   .first-box button
+    {
+        width: 100%;
+    }   
+}
 .main-container .banner .banner-service .inner-container  .first-box:hover{
    height: 270px;
    transition: all 1s ease-in-out .5s;
@@ -170,7 +269,18 @@
     position: absolute;
     bottom: 0px;
     right: 110px;
-
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container  .boxes
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    bottom: 0px;
+   right: 0px;
+}
 }
 .main-container .banner .banner-service .inner-container  .boxes .second-box .paragraph-2
 {
@@ -178,10 +288,18 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container  .boxes .second-box .paragraph-2
+{
+    padding-top: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+}
 .main-container .banner .banner-service .inner-container   .boxes .second-box
 {
-  /* background: url("images/banner-service-2_03.jpg") no-repeat;
-  background-size: cover; */
+  
   background: rgba(10, 6, 2, 0.7);
   /* background-image: linear-gradient(to right , #0b1104,#020202); */
   height: 231px;
@@ -207,6 +325,17 @@
     position: absolute;
     bottom: 0px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container  .boxes .second-box .inner-box
+    {
+        width: 100%;
+        height: 10px;
+        background: #9d1b1f;
+        position: absolute;
+        bottom: 253px;
+    }
+}
 .main-container .banner .banner-service .inner-container  .boxes .third-box
 {
   /* background: url("images/banner-service-2_03.jpg") no-repeat;
@@ -222,6 +351,15 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 33px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container  .boxes .third-box .paragraph-3
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
 }
 .main-container .banner .banner-service .inner-container  .boxes .third-box h1
 {
@@ -242,16 +380,35 @@
     position: absolute;
     bottom: 0px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .banner .banner-service .inner-container  .boxes .third-box .sec-inner-box
+    {
+        width: 100%;
+        height: 10px;
+        background: #9d1b1f;
+       
+    }
+}
 .main-container .middle-container
 {
   background: url('images/middle-pic_07.jpg') no-repeat;
     background-size: cover;
     height: 561px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .middle-container
+{
+  background: url('images/middle-pic_07.jpg') no-repeat;
+    background-size: cover;
+    height: auto;
+}
+}
 .main-container .middle-container .inner-container .paragraph
 {
     display: grid;
-    grid-template-columns: 620px 1fr;
+    grid-template-columns: auto 1fr;
     grid-template-rows: 1fr;
     color: white;
     padding-top: 43px;
@@ -264,7 +421,8 @@
     {
         display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 10px;
     }
 }
 .main-container .middle-container .inner-container .paragraph .first-paragraph h1{
@@ -272,6 +430,14 @@
     color: #b52e32;
     font-weight: bold;
     margin-bottom: 34px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .middle-container .inner-container .paragraph .first-paragraph h1
+    {
+        font-size: 30px;
+    }
+
 }
 .main-container .middle-container .inner-container .paragraph .first-paragraph h1 span{
     color: white;
@@ -462,6 +628,15 @@ font-size: 16px;
     background: #6d7172;
     height: 331px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .footer-contact
+    {
+        height: auto;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+}
 .main-container .footer-contact .inner-container
 {
     display: grid;
@@ -470,6 +645,16 @@ font-size: 16px;
     grid-gap: 55px;
     padding-top: 50px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .footer-contact .inner-container
+    {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
 .main-container .footer-contact .inner-container .third-paragraph h1
 {
     color: white;
@@ -508,6 +693,18 @@ font-size: 16px;
     grid-gap: 10px;
     margin-bottom: 10px;
     height: 35px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .footer-contact .inner-container .email-form form .form-group-1
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
 }
 .main-container .footer-contact .inner-container .email-form form .form-group-1 input
 {
@@ -568,6 +765,20 @@ font-size: 16px;
     text-align: right;
     align-items: center;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .footer-contact .inner-container .email-form .submit-box
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 66px;
+    font-size: 12px;
+    color: #cccccc;
+    text-align: justify;
+    align-items: center;
+}
+}
 .main-container .footer-contact .inner-container .email-form .submit-box button
 {
     width: 180px;
@@ -584,6 +795,13 @@ font-size: 16px;
     align-items: center;
     cursor: pointer;
     outline: none;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .footer-contact .inner-container .email-form .submit-box button
+    {
+        justify-self: center;
+    }
 }
 .main-container .footer-contact .inner-container .email-form .submit-box button img{
     justify-self: end;
@@ -602,20 +820,62 @@ font-size: 16px;
     align-items: center;
  
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .final-footer .inner-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 120px;
+    grid-gap: 9px;
+    padding: 10px;
+    align-items: center;
+ 
+}
+}
 .main-container .final-footer .inner-container .footer-text  p
 {
     color: #b0b0b0;
     font-size: 12px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .final-footer .inner-container .footer-text  p
+{
+    color: #b0b0b0;
+    font-size: 12px;
+    justify-self: center;
+}
+}
 .main-container .final-footer .inner-container .footer-logo
 {
     justify-self: end;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .final-footer .inner-container .footer-logo
+{
+    justify-self: center;
+}
+}
+/* @media (min-width:320px) and (max-width:767px)
+{
+
+} */
 .main-container .final-footer .inner-container .footer-menu ul li{
     display: inline-block;
     text-align: left;
     line-height: 120px;
     margin-right: 3px;
+}
+@media (min-width:320px) and (max-width:767px)
+{
+    .main-container .final-footer .inner-container .footer-menu ul li{
+        display: inline-block;
+        line-height: 0px;
+        margin-right: 3px;
+    }
 }
 .main-container .final-footer .inner-container .footer-menu ul li a{
     text-decoration: none;
