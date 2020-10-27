@@ -186,36 +186,40 @@
     display: none;
 }
 }
-.main-container .banner .banner-service .inner-container  .first-box
+.main-container .banner .banner-service .inner-container
 {
+    position: relative;
+}
+.main-container .banner .banner-service .inner-container .boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: absolute;
+    top: 160px;
+    z-index: 1;
+}
 
+.main-container .banner .banner-service .inner-container  .boxes .single-box
+{
   background: rgba(10, 6, 2, 0.7);
-  /* background-image: linear-gradient(to right , #0b1104,#020202); */
-  height: 231px;
   color: white;
-  width: 320px;
-  position: absolute;
-  bottom: 0px;
-  /* box-shadow: 6px 0px 13px #020302; */
-}
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container  .first-box
-    {
-        position: absolute;
-        bottom: 461px;
-        width: 100%;
-    }
-}
-.main-container .banner .banner-service .inner-container  .first-box .paragraph-1
-{
-    padding-top: 33px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+  /* padding-top: 33px; */
+  /* padding-left: 40px;
+  padding-right: 40px; */
 
-
-.main-container .banner .banner-service .inner-container   .first-box h1
+}.main-container .banner .banner-service .inner-container  .boxes .single-box:hover
+{
+  background: rgba(10, 6, 2, 0.7);
+  color: white;
+  position: relative;
+  top: -37px;
+  
+}
+.main-container .banner .banner-service .inner-container  .boxes  .single-box .paragraph-1
+{
+    padding: 40px 40px 0px 40px;
+}
+.main-container .banner .banner-service .inner-container  .boxes  .single-box .paragraph-1 h1
 {
     font-size: 20px;
     font-weight: bold;
@@ -223,10 +227,11 @@
     margin-bottom: 30px;
    
 }
-.main-container .banner .banner-service .inner-container   .first-box p{
+.main-container .banner .banner-service .inner-container  .boxes  .single-box .paragraph-1  p{
     font-size: 16px;
+    margin-bottom: 38px;
 }
-.main-container .banner .banner-service .inner-container   .first-box button
+.main-container .banner .banner-service .inner-container  .boxes .single-box button
 {
     display: grid;
     grid-template-columns: 55px 1fr;
@@ -244,157 +249,20 @@
     border: none;
     outline: none;   
     /* transition: all 5s ease-in-out .s; */
-    position: absolute;
-    bottom: 0px;
+    /* position: absolute;
+    bottom: 0px; */
 }
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container   .first-box button
-    {
-        width: 100%;
-    }   
-}
-.main-container .banner .banner-service .inner-container  .first-box:hover{
-   height: 270px;
-   transition: all 1s ease-in-out .5s;
-}
-.main-container .banner .banner-service .inner-container   .first-box button img{
+.main-container .banner .banner-service .inner-container  .boxes .single-box button img{
     justify-self: right;
 }
-.main-container .banner .banner-service .inner-container  .boxes
-{
-    display: grid;
-    grid-template-columns: 320px 320px ;
-    grid-template-rows: 1fr;
-    position: absolute;
-    bottom: 0px;
-    right: 110px;
-}
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container  .boxes
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    position: absolute;
-    bottom: 0px;
-   right: 0px;
-}
-}
-.main-container .banner .banner-service .inner-container  .boxes .second-box .paragraph-2
-{
-    padding-top: 33px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container  .boxes .second-box .paragraph-2
-{
-    padding-top: 33px;
-    padding-left: 10px;
-    padding-right: 10px;
- }
-}
-.main-container .banner .banner-service .inner-container   .boxes .second-box
-{
-  
-  background: rgba(10, 6, 2, 0.7);
-  /* background-image: linear-gradient(to right , #0b1104,#020202); */
-  height: 231px;
-  color: white;
-  /* box-shadow: 6px 0px 13px #020302; */
-}
-.main-container .banner .banner-service .inner-container  .boxes .second-box h1
-{
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-   
-}
-.main-container .banner .banner-service .inner-container  .boxes .second-box p{
-    font-size: 16px;
-}
-.main-container .banner .banner-service .inner-container  .boxes .second-box .inner-box
-{
-    width: 320px;
-    height: 10px;
-    background: #9d1b1f;
-    position: absolute;
-    bottom: 0px;
-}
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container  .boxes .second-box .inner-box
-    {
-        width: 100%;
-        height: 10px;
-        background: #9d1b1f;
-        position: absolute;
-        bottom: 253px;
-    }
-}
-.main-container .banner .banner-service .inner-container  .boxes .third-box
-{
-  /* background: url("images/banner-service-2_03.jpg") no-repeat;
-  background-size: cover; */
-  background: rgba(10, 6, 2, 0.7);
-  /* background-image: linear-gradient(to right , #0b1104,#191718); */
-  height: 231px;
-  color: white;
-  /* box-shadow: 6px 0px 13px #020302; */
-}
-.main-container .banner .banner-service .inner-container  .boxes .third-box .paragraph-3
-{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 33px;
-}
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container  .boxes .third-box .paragraph-3
-{
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
- }
-}
-.main-container .banner .banner-service .inner-container  .boxes .third-box h1
-{
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-  
-}
-.main-container .banner .banner-service .inner-container  .boxes .third-box p{
-    font-size: 16px;
-}
-.main-container .banner .banner-service .inner-container  .boxes .third-box .sec-inner-box
-{
-    width: 320px;
-    height: 10px;
-    background: #9d1b1f;
-    position: absolute;
-    bottom: 0px;
-}
-@media (min-width:320px) and (max-width:767px)
-{
-    .main-container .banner .banner-service .inner-container  .boxes .third-box .sec-inner-box
-    {
-        width: 100%;
-        height: 10px;
-        background: #9d1b1f;
-       
-    }
-}
+
 .main-container .middle-container
 {
   background: url('images/middle-pic_07.jpg') no-repeat;
     background-size: cover;
     height: 561px;
+    position: relative;
+    z-index: 2;
 }
 @media (min-width:320px) and (max-width:767px)
 {
@@ -413,7 +281,6 @@
     color: white;
     padding-top: 43px;
     grid-gap: 27px;
-    padding-bottom: 40px;
 }
 @media (min-width:320px) and (max-width:767px)
 {
